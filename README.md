@@ -1,38 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Message4You
 
-## Getting Started
+Message4You is a fun and interactive random message generating app created using Next.js. It generates random messages to bring joy and inspiration.
 
-First, run the development server:
+![Message4You Screenshot](Message4U.png)
 
-```bash
+## Features
+
+- Randomly generates uplifting and positive messages
+- Fully customisable messages
+- User-friendly interface
+- Fully responsive design
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/7Jay-Lee7/Message4You.git
+
+2. Change to the project directory:
+
+cd Message4You
+
+3. Install the dependencies:
+
+npm install
+
+## Usage
+
+1. Run the app:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Open your web browser and navigate to http://localhost:3000.
+3. Click the "Push me" button to generate a random message.
+4. Enjoy the uplifting and positive messages!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Customisation
+You can customise the message categories by editing the messages.js file located in the Message directory. Add or remove messages as desired, following the provided format.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+const message = [
+	'I love hearing your ideas.',
+	'You make a difference in my life.',
+	'I love seeing the world through your eyes.',
+	'Seeing you happy makes me happy.',
+	'You mean the world to me.',
+	'I hope you have an amazing day today.'
+  ]
+  
+### Contributing
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### License
+This project is licensed under the MIT License.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to customise the README file further to include additional sections or information specific to your app.
